@@ -14,10 +14,10 @@
     />
     <title>Halahan Kirill HW2[index]</title>
   </head>
-  <body>
+  <body class="">
     <!--Header-->
     <header class="header">
-      <div class="container header-wrapper">
+      <div class="container">
         <!--logo-->
         <a href="./index.html" class="logo"><span>WEB</span>STUDIO</a>
         <button type="button" class="mobile-menu-button" data-menu-open>
@@ -66,7 +66,7 @@
         </button>
       </section>
       <!--What are we doing-->
-      <section class="section">
+      <section class="section feature-section">
         <div class="container">
           <ul class="what-are-we-doing-list">
             <li class="what-are-we-doing-item">
@@ -165,6 +165,7 @@
           <ul class="team-list">
             <li class="team-item">
               <img
+                class="person-img"
                 srcset="
                   ./img/person_plate_1.jpg    1x,
                   ./img/person_plate_1@2x.jpg 2x
@@ -210,6 +211,7 @@
             </li>
             <li class="team-item">
               <img
+                class="person-img"
                 srcset="
                   ./img/person_plate_2.jpg    1x,
                   ./img/person_plate_2@2x.jpg 2x
@@ -255,6 +257,7 @@
             </li>
             <li class="team-item">
               <img
+                class="person-img"
                 srcset="
                   ./img/person_plate_3.jpg    1x,
                   ./img/person_plate_3@2x.jpg 2x
@@ -300,6 +303,7 @@
             </li>
             <li class="team-item">
               <img
+                class="person-img"
                 srcset="
                   ./img/person_plate_4.jpg    1x,
                   ./img/person_plate_4@2x.jpg 2x
@@ -346,7 +350,7 @@
           </ul>
         </div>
       </section>
-      <section class="section">
+      <section class="customers-section">
         <h2 class="our-team-heading heading-color">Customers</h2>
         <div class="container">
           <ul class="customers-list">
@@ -397,6 +401,7 @@
       </section>
       <!--Modal-->
     </main>
+    <!--======form======-->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-close-button" data-modal-close>
@@ -483,7 +488,6 @@
         </form>
       </div>
     </div>
-
     <!--======Mob-menu======-->
     <div class="mobile-menu" data-menu>
       <div class="mobile-menu-container">
